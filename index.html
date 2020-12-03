@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de inventario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Control de inventario</h1>
+    <div>
+        <h2>Añadir producto</h2>
+        <input type="number" id="codigo" name="Codigo" placeholder="Codigo de producto"/>
+        <input type="text" id="producto" name="Producto" placeholder="Nombre del producto"/>
+        <input type="text" id="descripcion" name="Descripcion" placeholder="Descripción"/>
+        <input type="number" id="cantidad" name="cantidad" placeholder="Cantidad"/>
+        <input type="number" id="costo" name="Costo" placeholder="Costo por unidad"/>
+        <input type="button" id="btnAnadir" value="Añadir"/>
+        <input type="button" id="btnCalcular" value="Calcular Precio"/><br>
+        <label id="mensajeAnadir">---</label>
+        <h4>O insertar</h4>
+        <input type="number" id="posicion" name="Posicion" placeholder="Posición del producto"/>
+        <input type="button" id="btnInsertar" value="Insertar"/><br>
+        <label id="mensajeInsertar">---</label>
+    </div>
+    <div>
+        <h2>Borrar primer producto</h2>
+        <input type="button" id="btnBorrarPrimero" value="Borrar primer producto"/><br>
+        <label id="mensajeBorrarPrimero">---</label>
+    </div>
+    <div>
+        <h2>Borrar producto por codigo</h2>
+        <input type="number" id="codigoBorrar" name="Codigo" placeholder="Codigo del producto"/>
+        <input type="button" id="btnBorrar" value="Borrar"/><br>
+        <label id="mensajeBorrar">---</label>
+    </div>
+    <div>
+        <h2>Buscar producto</h2>
+        <input type="number" id="codigoBuscar" name="Codigo" placeholder="Posición del producto"/>
+        <input type="button" id="btnBuscar" value="Buscar"/><br>
+        <label id="mensajeBuscar">---</label>
+    </div>
+    <div>
+        <h2>Listar productos</h2>
+        <input type="button" id="btnListar" value="Listar"/>
+        <ul id="lista1"></ul>
+    </div>
+    <div>
+        <h2>Listar productos invertidos</h2>
+        <input type="button" id="btnListarInv" value="Listar Invertido"/>
+        <ul id="lista2"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

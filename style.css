@@ -1,0 +1,27 @@
+p{color: rebeccapurple; font-family: 'Indie Flower', cursive;}
+a:visited{color: salmon}
+a:hover{color: rgb(64, 129, 38)}
+a{text-decoration: none}
+head{text-align: center;}
+h1{font-family: 'Manjari', sans-serif; text-shadow: 3px 3px 0px  rgba(22, 1, 8, 0.486)}
+.linea{display: inline-block; position: relative; bottom: 50px; left: 10px;}
+h2,h3,h4{ height: 30px;
+
+    padding-left: 25px; margin-bottom: 30px;
+    border-radius: 10px; font-family: 'Manjari', sans-serif; 
+    }
+p,li{
+    border: 5px solid rgb(66, 5, 23); padding-top: 7px; padding-bottom: 7px; padding-right: 25px; 
+    padding-left: 25px; margin-bottom: 30px;
+    border-radius: 10px; font-size: 20px; font-family: 'Squada One', cursive;; 
+    width: 50%; color: rgb(255, 242, 200); background-color: rgb(112, 11, 36); margin-left: 25%;
+     }
+body{ text-align: center; background-image: url(https://s3-us-west-2.amazonaws.com/wp-mpro-blog/wp-content/uploads/2018/10/26105753/Retail-de-supermercado.png);
+    background-attachment: fixed}
+img{border-radius: 20px}
+ul{list-style:square;}
+form{width: 25%; border: 6px solid maroon; margin: 30px; padding: 20px; border-radius: 10px;
+    background: rgba(245, 220, 137, 0.253); margin-left: 35%;}
+input{width: 50%; margin-bottom: 25px; padding: 8px; 
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+    border: 3px maroon}
